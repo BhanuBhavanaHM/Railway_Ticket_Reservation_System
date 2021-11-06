@@ -1,0 +1,53 @@
+
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color: white;
+	font-size: 60px;
+}
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.login-box h1{
+	color: black;
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+.textbox{
+	color: black;
+	width: 80%;
+	overflow: hidden;
+	font-size: 30px;
+	padding: 8px 0;
+	margin: 8px,0;
+	border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+	color: black;
+	width: 50px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	color: black;
+	border:none;
+	outline: none;
+	background:none;
+}
